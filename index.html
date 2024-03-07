@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Interest Calculator</h1>
+    
+    <form>
+        <label for="principal">Principal Amount : </label>
+        <input type="text" id="principal" placeholder="Enter Principal Amount">
+        <br>
+
+        <label for="interest">Interest Rate : </label>
+        <input type="text" id="interest" placeholder="Enter Interest Rate">
+        <br>
+
+        <label for="years">Years : </label>
+        <input type="text" id="years" placeholder="Enter Years of Investment">
+        <br>
+
+        <button type="button" onclick="calculate()">Submit</button>
+        <br>
+
+        <p>Total Amount : <span id="total">₹0.00</span></p>
+        <p>Interest Earned : <span id="interest-earned">₹0.00</span></p>
+    </form>
+
+    <!-- <div class="box"></div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>

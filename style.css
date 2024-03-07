@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    text-shadow: 5px 5px 5px gold;
+    /* box-shadow: blueviolet; */
+}
+
+form {
+    max-width: 250px;
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+}
+
+#total {
+    text-align: center;
+}
+
+button {
+    background-color:blue;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 60px;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 95);
+    color: mintcream;
+}
+
+button:active {
+    background-color: rgb(114, 179, 205);
+    color: black;
+}
+
+p {
+    margin: 0px;
+    padding: 1px;
+}
+/* 
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+    margin: auto;
+} */
