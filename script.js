@@ -4,7 +4,7 @@ function calculate(){
     var yearsElement = document.getElementById("years");
     var totalElement = document.getElementById("total");
     var interestEarned = document.getElementById("interest-earned");
-
+    var principle = document.getElementById("principle");
     var p = Number(principalElement.value);
     var r = Number(interestElement.value);
     var t = Number(yearsElement.value);
@@ -30,6 +30,7 @@ function calculate(){
     var interestAmt = Number((p * t * r) / 100);
     var totalAmount = Number(interestAmt + p);
 
+    principle.textContent = principalElement.value;
     totalElement.textContent = totalAmount.toLocaleString(undefined, {style: "currency", currency: "INR"});
     interestEarned.textContent = interestAmt.toLocaleString(undefined, {style: "currency" , currency: "INR"});
 }
